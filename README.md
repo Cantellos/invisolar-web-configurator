@@ -188,26 +188,6 @@ Potential improvements and features:
 - [ ] Save configurations to user accounts
 - [ ] Admin panel for managing products
 
-## Troubleshooting
-
-**Port already in use:**
-```bash
-# Change port in application.properties or via environment variable
-SERVER_PORT=8081 mvn spring-boot:run
-```
-
-**Build fails:**
-```bash
-# Clear Maven cache and rebuild
-mvn clean
-mvn install -U
-```
-
-**Application doesn't start:**
-- Check Java version: `java -version`
-- Verify Maven build completed successfully
-- Check logs in console for specific errors
-
 ## Contributing
 
 Contributions are welcome! To contribute:
